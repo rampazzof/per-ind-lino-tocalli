@@ -1,15 +1,8 @@
-.gradientBar {
-  background: linear-gradient(110deg, #bfff00 50%, #d6d6d6 50%);
-}
-
 a,
 a:focus,
 a:active,
+a:hover,
 a:visited {
   text-decoration: none !important;
   box-shadow: none !important;
-}
-
-a:hover {
-  text-decoration: underline !important;
 }

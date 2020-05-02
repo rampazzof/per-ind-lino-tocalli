@@ -31,7 +31,7 @@ const Header = () => (
         Home
         <Icon as={MdHome} size={10} pb={2} />
       </Link>
-      <Link as={GatsbyLink} to="#contacts">
+      <Link as={GatsbyLink} to="#googlemaps">
         Dove Siamo
         <Icon as={MdPlace} size={10} pb={2} />
       </Link>

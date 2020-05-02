@@ -16,6 +16,7 @@ import {
 
 import Header from "../components/header"
 import Footer from "../components/footer"
+import GradientBar from "../components/gradientBar"
 
 import logo from "../images/logo.jpg"
 import LeggiJpg from "../images/OBBLIGHI.jpg"
@@ -27,31 +28,35 @@ import ServiziJpg from "../images/SERVIZI.jpg"
 export default () => (
   <Box>
     <Header />
-    <Box h={2}></Box>
-    <Box className="gradientBar" h={8} />
-    <Grid templateColumns="repeat(2, 1fr)" alignItems="center" h="300px">
-      <Image className="svg-up" src={logo} h="300px" ml="auto" mr="auto" />
-      <Box fontSize="4xl" fontWeight="bold" pl={24}>
+    <GradientBar />
+    <Grid templateColumns="repeat(2, 1fr)" alignItems="center" h="86vh">
+      <Image className="svg-up" src={logo} h="450px" ml="auto" mr="auto" />
+      <Box fontSize="6xl" fontWeight="bold" pl={24}>
         <Text>
           Progettazione e consulenza impianti elettrici, speciali e fotovoltaici
         </Text>
         <Link as={GatsbyLink} to="/presentazione" float="left">
           <Button
             color="#bfff00"
-            variant="link"
-            leftIcon="arrow-forward"
+            bg="black"
+            rightIcon="arrow-forward"
             fontSize="xl"
+            fontWeight="bold"
+            rounded="20px"
+            _focus={{
+              boxShadow: "",
+            }}
+            _hover={{ bg: "#565656" }}
           >
             Scopri di più
           </Button>
         </Link>
       </Box>
     </Grid>
-    <Box className="gradientBar" h={8} />
-    <Box h={2}></Box>
+    <GradientBar />
     <Box color="white">
       <Grid
-        h="300px"
+        h="50vh"
         templateColumns="repeat(3, 1fr)"
         columnGap={6}
         bg="#192e26ff"
@@ -102,9 +107,8 @@ export default () => (
           />
         </Box>
       </Grid>
-      <Box h={2} />
       <Grid
-        h="300px"
+        h="50vh"
         templateColumns="repeat(3, 1fr)"
         gap={6}
         bg="#214e34ff"
@@ -166,9 +170,8 @@ export default () => (
           </List>
         </Box>
       </Grid>
-      <Box h={2} />
       <Grid
-        h="300px"
+        h="50vh"
         templateColumns="repeat(3, 1fr)"
         gap={6}
         bg="#5c7457ff"
@@ -217,9 +220,8 @@ export default () => (
           />
         </Box>
       </Grid>
-      <Box h={2} />
       <Grid
-        h="300px"
+        h="50vh"
         templateColumns="repeat(3, 1fr)"
         gap={6}
         bg="#475A49"
@@ -272,9 +274,8 @@ export default () => (
           </List>
         </Box>
       </Grid>
-      <Box h={2} />
       <Grid
-        h="300px"
+        h="50vh"
         templateColumns="repeat(3, 1fr)"
         gap={6}
         bg="#979B8D"
@@ -289,9 +290,15 @@ export default () => (
           <Link as={GatsbyLink} to="/obblighi-e-norme" float="left">
             <Button
               color="#bfff00"
-              variant="link"
-              leftIcon="arrow-forward"
+              bg="black"
+              rightIcon="arrow-forward"
               fontSize="xl"
+              fontWeight="bold"
+              rounded="20px"
+              _focus={{
+                boxShadow: "",
+              }}
+              _hover={{ bg: "#565656" }}
             >
               Scopri di più
             </Button>
@@ -318,7 +325,16 @@ export default () => (
         </Box>
       </Grid>
     </Box>
-    <Box h={2} />
+    <iframe
+      id="googlemaps"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11052.910261856712!2d9.710459248657225!3d46.16612556580803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478473103c6c5d73%3A0xedd4a393d5c39f7a!2sVia%20Serta%2C%20190%2C%2023017%20Morbegno%20SO!5e0!3m2!1sit!2sit!4v1588360807863!5m2!1sit!2sit"
+      title="googlemaps"
+      width="100%"
+      height="450px"
+      frameborder="0"
+      allowfullscreen=""
+      aria-hidden="false"
+    />
     <Footer />
   </Box>
 )
