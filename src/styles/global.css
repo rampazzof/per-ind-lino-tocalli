@@ -5,4 +5,15 @@ a:hover,
 a:visited {
   text-decoration: none !important;
   box-shadow: none !important;
+  transition: color 500ms;
+}
+
+a:hover {
+  transition: color 500ms;
+  color: #bfff00;
+}
+
+.gradient-bar {
+  background: linear-gradient(110deg, #bfff00 50%, #d6d6d6 50%);
+  height: 30px;
 }

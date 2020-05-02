@@ -3,16 +3,10 @@ import React from "react"
 import { Box, Button, Icon, Stack, Text } from "@chakra-ui/core"
 import { MdFileDownload } from "react-icons/md"
 
-import Header from "../../components/header"
-import Footer from "../../components/footer"
-import GradientBar from "../../components/gradientBar"
-
 import downloadFile from "../../downloads/lavori.pdf"
 
 export default () => (
   <Box>
-    <Header />
-    <GradientBar />
     <Box w="50%" ml="auto" mr="auto" pb={8}>
       <Box fontWeight="bold" fontSize="4xl" pt={8} pb={8} textAlign="center">
         PRESENTAZIONE
@@ -92,6 +86,5 @@ export default () => (
         </Button>
       </Stack>
     </Box>
-    <Footer />
   </Box>
 )
