@@ -13,6 +13,7 @@ import {
   ListIcon,
   Text,
 } from "@chakra-ui/core"
+import { Helmet } from "react-helmet"
 
 import Header from "../components/header"
 import Footer from "../components/footer"
@@ -27,6 +28,12 @@ import ServiziJpg from "../images/SERVIZI.jpg"
 
 export default () => (
   <Box>
+    <Helmet>
+      <html lang="it" />
+      <meta charSet="utf-8" />
+      <meta name="description" content="Per. Ind. Lino Tocalli website" />
+      <title>Per. Ind. Lino Tocalli</title>
+    </Helmet>
     <Header />
     <GradientBar />
     <Grid templateColumns="repeat(2, 1fr)" alignItems="center" h="86vh">
