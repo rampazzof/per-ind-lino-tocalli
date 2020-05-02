@@ -13,11 +13,6 @@ import {
   ListIcon,
   Text,
 } from "@chakra-ui/core"
-import { Helmet } from "react-helmet"
-
-import Header from "../components/header"
-import Footer from "../components/footer"
-import GradientBar from "../components/gradientBar"
 
 import logo from "../images/logo.jpg"
 import LeggiJpg from "../images/OBBLIGHI.jpg"
@@ -28,15 +23,11 @@ import ServiziJpg from "../images/SERVIZI.jpg"
 
 export default () => (
   <Box>
-    <Helmet>
-      <html lang="it" />
-      <meta charSet="utf-8" />
-      <meta name="description" content="Per. Ind. Lino Tocalli website" />
-      <title>Per. Ind. Lino Tocalli</title>
-    </Helmet>
-    <Header />
-    <GradientBar />
-    <Grid templateColumns="repeat(2, 1fr)" alignItems="center" h="86vh">
+    <Grid
+      templateColumns="repeat(2, 1fr)"
+      alignItems="center"
+      h="calc(100vh - 90px)"
+    >
       <Image className="svg-up" src={logo} h="450px" ml="auto" mr="auto" />
       <Box fontSize="6xl" fontWeight="bold" pl={24}>
         <Text>
@@ -60,7 +51,7 @@ export default () => (
         </Link>
       </Box>
     </Grid>
-    <GradientBar />
+    <div className="gradient-bar" />
     <Box color="white">
       <Grid
         h="50vh"
@@ -342,6 +333,5 @@ export default () => (
       allowfullscreen=""
       aria-hidden="false"
     />
-    <Footer />
   </Box>
 )
