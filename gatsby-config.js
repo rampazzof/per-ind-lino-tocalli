@@ -15,7 +15,7 @@ module.exports = {
         name: "Per. Ind. Lino Tocalli",
         short_name: "PerIndLT",
         start_url: "/",
-        //icon: "static/favicon/NC.png",
+        icon: "static/favicon.ico",
       },
     },
     `gatsby-plugin-offline`,
