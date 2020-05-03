@@ -1,0 +1,14 @@
+li {
+  list-style-position: outside;
+  list-style-type: disc;
+}
+
+p {
+  padding-block-start: 8px;
+  padding-block-end: 8px;
+}
+
+.download-button {
+  background: rgb(191, 255, 0);
+  color: black;
+}
