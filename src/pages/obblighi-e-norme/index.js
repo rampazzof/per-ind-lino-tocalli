@@ -1,11 +1,8 @@
 import React from "react"
 
-import { Icon } from "@chakra-ui/core"
 import { MdFileDownload } from "react-icons/md"
 
 import downloadFile from "../../downloads/presentazione-studi-tecnici.pdf"
-
-import "./style.css"
 
 export default () => (
   <div>
@@ -15,17 +12,19 @@ export default () => (
         La progettazione di impianti elettrici avviene nel rispetto di quanto
         riportato all’interno dei decreti:
       </p>
-      <ul>
-        <li>
-          D.Lgs. 9 aprile 2008, n. 81 e s.m.i. “TESTO UNICO SULLA SALUTE E
-          SICUREZZA SUL LAVORO”
+      <ul className="page-list" style={{ listStyleType: "disc" }}>
+        <li style={{ display: "block" }}>
+          <b>
+            D.Lgs. 9 aprile 2008, n. 81 e s.m.i. “TESTO UNICO SULLA SALUTE E
+            SICUREZZA SUL LAVORO”
+          </b>
           <br />
           (Attuazione dell’articolo 1 della Legge 3 agosto 2007, n. 123 in
           materia di tutela della salute e della sicurezza nei luoghi di
           lavoro);
         </li>
-        <li>
-          D.M. 22 gennaio 2008, n. 37
+        <li style={{ display: "block", listStyleType: "disc" }}>
+          <b>D.M. 22 gennaio 2008, n. 37</b>
           <br />
           (Regolamento concernente l'attuazione dell'articolo 11-quaterdecies,
           comma 13, lettera (a) della legge n. 248 del 2005, recante riordino
@@ -85,9 +84,11 @@ export default () => (
         dettate in sede di rilascio della concessione edilizia o permesso di
         costruire.
       </p>
-      <div className="button-label">Scarica la guida completa</div>
+      <div className="button-label">
+        Scarica la guida realizzata dal nostro studio:
+      </div>
       <a className="download-button" href={downloadFile} download>
-        Download <Icon as={MdFileDownload} size={6} />
+        Download <MdFileDownload className="inline-item" />
       </a>
     </div>
   </div>

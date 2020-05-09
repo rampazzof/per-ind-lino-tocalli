@@ -1,6 +1,6 @@
 .navbar {
   position: relative;
-  background-color: black;
+  background-color: #d6d6d6;
   height: 60px;
 }
 .navbar-pointer {
@@ -8,7 +8,7 @@
   background: linear-gradient(
     110deg,
     rgb(191, 255, 0) calc(100% - 40px),
-    rgba(0, 0, 0, 0) 40px
+    #d6d6d6 40px
   );
   height: 100%;
   position: absolute;
@@ -40,4 +40,9 @@
   align-items: center;
   justify-content: center;
   flex-basis: 15%;
+}
+
+.navbar-item:hover,
+.navbar-item:active {
+  font-weight: 900;
 }

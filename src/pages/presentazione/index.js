@@ -1,11 +1,8 @@
 import React from "react"
 
-import { Icon } from "@chakra-ui/core"
 import { MdFileDownload } from "react-icons/md"
 
 import downloadFile from "../../downloads/lavori.pdf"
-
-import "./style.css"
 
 export default () => (
   <div>
@@ -64,14 +61,19 @@ export default () => (
         gli impianti tradizionali in sistemi decisamente più complessi in grado
         di gestire le più svariate funzioni.
       </p>
-      Sulla base di quest’ultima considerazione legata al progresso tecnologico,
-      ritengo indispensabile proseguire il mio percorso di formazione per
-      mantenere un costante aggiornamento, in modo tale da garantire un servizio
-      di progettazione e consulenza valido in tutti i suoi aspetti.
+      <p>
+        Sulla base di quest’ultima considerazione legata al progresso
+        tecnologico, ritengo indispensabile proseguire il mio percorso di
+        formazione per mantenere un costante aggiornamento, in modo tale da
+        garantire un servizio di progettazione e consulenza valido in tutti i
+        suoi aspetti.
+      </p>
       <p className="right">Per. Ind. Lino Tocalli</p>
-      <div className="button-label">Ultimi lavori</div>
+      <div className="button-label">
+        Elenco principali lavori realizzati e collaborazioni:
+      </div>
       <a className="download-button" href={downloadFile} download>
-        Download <Icon as={MdFileDownload} size={6} />
+        Download <MdFileDownload className="inline-item" />
       </a>
     </div>
   </div>

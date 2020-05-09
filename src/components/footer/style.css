@@ -15,7 +15,26 @@
 }
 
 .footer-img {
-  height: 118px;
+  height: 200px;
   margin-left: auto;
-  margin-right: 0px;
+}
+
+.margin-top-separator {
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .footer {
+    display: block;
+    height: 50vh;
+    width: 100%;
+  }
+
+  .footer-item {
+    height: 50vh;
+  }
+
+  .footer-image {
+    display: none;
+  }
 }
