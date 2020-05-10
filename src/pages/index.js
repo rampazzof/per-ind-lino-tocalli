@@ -5,8 +5,6 @@ import { Link } from "gatsby"
 import { MdKeyboardArrowRight } from "react-icons/md"
 import ScrollableAnchor from "react-scrollable-anchor"
 
-import "./style.css"
-
 import logo from "../images/logo.jpg"
 import LeggiJpg from "../images/OBBLIGHI.jpg"
 import ElettriciJpg from "../images/ELETTRICI.jpg"
