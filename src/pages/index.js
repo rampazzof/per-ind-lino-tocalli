@@ -266,8 +266,6 @@ export default () => (
         title="googlemaps"
         width="100%"
         height="450px"
-        frameborder="0"
-        allowfullscreen=""
         aria-hidden="false"
       />
     </ScrollableAnchor>
