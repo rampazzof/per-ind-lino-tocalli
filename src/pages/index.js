@@ -14,7 +14,7 @@ import DomoticaJpg from "../images/DOMOTICA.jpg"
 import ServiziJpg from "../images/SERVIZI.jpg"
 
 export default () => (
-  <div>
+  <div className="page">
     <div className="main-presentation">
       <div className="main-item">
         <img className="main-logo" src={logo} alt="main logo" />

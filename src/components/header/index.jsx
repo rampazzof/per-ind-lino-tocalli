@@ -42,7 +42,7 @@ export default () => {
         </div>
         <div className="navbar-item map">
           <a
-            href="#googlemaps"
+            href="/#googlemaps"
             onMouseEnter={() => setItemWidth("75%")}
             onMouseLeave={() => setItemWidth(defaultWidth)}
           >

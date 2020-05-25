@@ -3,6 +3,7 @@
   background-color: #d6d6d6;
   height: 60px;
   width: 100%;
+  top: 0;
 }
 .navbar-pointer {
   z-index: 1;
@@ -59,7 +60,7 @@
   }
 
   .navbar {
-    position: relative;
+    position: fixed;
     background: rgb(191, 255, 0);
   }
 
