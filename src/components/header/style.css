@@ -4,6 +4,7 @@
   height: 60px;
   width: 100%;
   top: 0;
+  z-index: 3;
 }
 .navbar-pointer {
   z-index: 1;
@@ -61,6 +62,7 @@
 
   .navbar {
     position: fixed;
+    top: 0;
     background: rgb(191, 255, 0);
   }
 

@@ -48,3 +48,10 @@ textarea {
   margin-top: 32px;
   margin-bottom: 32px;
 }
+
+@media only screen and (max-width: 1200px) {
+  .submit,
+  label {
+    width: 80%;
+  }
+}

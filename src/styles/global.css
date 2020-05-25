@@ -40,10 +40,9 @@ a:hover {
 
 .row-container {
   display: flex;
-  height: 50vh;
+  height: calc(50vh - 30px);
   color: white;
   align-items: center;
-  position: relative;
 }
 
 .row-item {
@@ -187,7 +186,7 @@ li {
   .row-container {
     width: 100%;
     display: block;
-    height: 100vh;
+    height: calc(100vh - 60px);
     color: white;
     align-items: center;
     position: relative;
@@ -270,7 +269,7 @@ li {
   .row-container {
     width: 100%;
     display: block;
-    height: 100vh;
+    height: calc(100vh - 60px);
     color: white;
     align-items: center;
     position: relative;
