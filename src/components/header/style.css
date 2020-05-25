@@ -1,7 +1,8 @@
 .navbar {
-  position: relative;
+  position: fixed;
   background-color: #d6d6d6;
   height: 60px;
+  width: 100%;
 }
 .navbar-pointer {
   z-index: 1;
@@ -22,7 +23,7 @@
 }
 
 .navbar-container {
-  position: absolute;
+  position: relative;
   display: flex;
   width: 100%;
   height: 100%;
@@ -45,4 +46,35 @@
 .navbar-item:hover,
 .navbar-item:active {
   font-weight: 900;
+}
+
+.navbar-title-min {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .navbar-pointer,
+  .navbar-container {
+    display: none;
+  }
+
+  .navbar {
+    position: relative;
+    background: rgb(191, 255, 0);
+  }
+
+  .navbar-title-min {
+    display: flex;
+    align-items: center;
+    flex-basis: 55%;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  .navbar-title-min > .title-min {
+    vertical-align: middle;
+    line-height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }

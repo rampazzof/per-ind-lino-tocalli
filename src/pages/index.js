@@ -4,6 +4,7 @@ import "typeface-chakra-petch"
 import { Link } from "gatsby"
 import { MdKeyboardArrowRight } from "react-icons/md"
 import ScrollableAnchor from "react-scrollable-anchor"
+import ContactForm from "../components/contact-form"
 
 import logo from "../images/logo.jpg"
 import LeggiJpg from "../images/OBBLIGHI.jpg"
@@ -22,61 +23,63 @@ export default () => (
         <div className="main-item-title">
           Progettazione e consulenza impianti elettrici, speciali e fotovoltaici
         </div>
-        <div>
-          <Link className="discover-button" to="/presentazione">
+        <div style={{ marginTop: "20px" }}>
+          <a className="discover-button" href="#containerStart">
             Scopri di più
             <MdKeyboardArrowRight
               style={{ display: "inline", fontSize: "24px" }}
             />
-          </Link>
+          </a>
         </div>
       </div>
     </div>
     <div className="gradient-bar" />
-    <div className="row-container green-5">
-      <div className="row-item">
-        <div className="row-item-title">PROGETTAZIONE IMPIANTI ELETTRICI</div>
-        <div>
-          Nell'ambito civile, industriale e terziario, lo studio ha le
-          competenze per la progettazione e la direzione lavori di impianti
-          elettrici a 360 gradi.
+    <ScrollableAnchor id="containerStart">
+      <div className="row-container green-5">
+        <div className="row-item">
+          <div className="row-item-title">PROGETTAZIONE IMPIANTI ELETTRICI</div>
+          <div>
+            Nell'ambito civile, industriale e terziario, lo studio ha le
+            competenze per la progettazione e la direzione lavori di impianti
+            elettrici a 360 gradi.
+          </div>
+        </div>
+        <div className="row-item">
+          <div className="row-item-list-title">
+            Progettazione impianti elettrici in media e bassa tensione:
+          </div>
+          <ul>
+            <li>
+              <MdKeyboardArrowRight />
+              quadri elettrici;
+            </li>
+            <li>
+              <MdKeyboardArrowRight />
+              sistemi di distribuzione dell'energia;
+            </li>
+            <li>
+              <MdKeyboardArrowRight />
+              impianti forza motrice;
+            </li>
+            <li>
+              <MdKeyboardArrowRight />
+              impianti di illuminazione (ordinaria e di emergenza);
+            </li>
+            <li>
+              <MdKeyboardArrowRight />
+              impianti di messa a terra ed equipotenziali.
+            </li>
+          </ul>
+        </div>
+        <div className="row-item image-row">
+          <img
+            className="row-item-image"
+            src={ElettriciJpg}
+            alt="Impianti elettrici jpg"
+          />
         </div>
       </div>
-      <div className="row-item">
-        <div className="row-item-list-title">
-          Progettazione impianti elettrici in media e bassa tensione:
-        </div>
-        <ul>
-          <li>
-            <MdKeyboardArrowRight />
-            quadri elettrici;
-          </li>
-          <li>
-            <MdKeyboardArrowRight />
-            sistemi di distribuzione dell'energia;
-          </li>
-          <li>
-            <MdKeyboardArrowRight />
-            impianti forza motrice;
-          </li>
-          <li>
-            <MdKeyboardArrowRight />
-            impianti di illuminazione (ordinaria e di emergenza);
-          </li>
-          <li>
-            <MdKeyboardArrowRight />
-            impianti di messa a terra ed equipotenziali.
-          </li>
-        </ul>
-      </div>
-      <div className="row-item image-row">
-        <img
-          className="row-item-image"
-          src={ElettriciJpg}
-          alt="Impianti elettrici jpg"
-        />
-      </div>
-    </div>
+    </ScrollableAnchor>
     <div className="row-container green-4">
       <div className="row-item image-row">
         <img
@@ -161,7 +164,7 @@ export default () => (
           </li>
           <li>
             <MdKeyboardArrowRight />
-            elaborazione di schemi elettrici e planimetrici per l'Installatore;
+            elaborazione di schemi elettrici e planimetrici;
           </li>
           <li>
             <MdKeyboardArrowRight />
@@ -185,9 +188,7 @@ export default () => (
         <div className="row-item-title">SERVIZI</div>
         <div>
           Nei settori sopra citati, lo studio offre servizi di consulenza
-          tecnica,
-          <br />
-          analisi dati, verifica, collaudi e messe in servizio.
+          tecnica, analisi dati, verifica, collaudi e messe in servizio.
         </div>
       </div>
       <div className="row-item">
@@ -226,8 +227,8 @@ export default () => (
           CENNI NORMATIVI ED OBBLIGHI DI LEGGE
         </div>
         <div>
-          Progettazione impianti in accordo alle prescrizioni riportate nel
-          D.Lgs 81/08 e s.m.i. e D.M. 37/08.
+          La progettazione di impianti in accordo alle prescrizioni riportate
+          nel D.Lgs 81/08 e s.m.i. e D.M. 37/08.
         </div>
         <div style={{ marginTop: "8px" }}>
           <Link className="discover-button" to="/obblighi-e-norme">
@@ -242,15 +243,8 @@ export default () => (
         <div className="row-item-list-title">
           Prescrizioni D.Lgs 81/08 e D.M. 37/08:
         </div>
-        <ul>
-          <li>
-            <div>
-              <MdKeyboardArrowRight />
-            </div>
-            Nozioni fondamentali espresse dai due decreti più importanti in
-            materia di impianti elettrici D.Lgs 81/08 e D.M. 37/08.
-          </li>
-        </ul>
+        Nozioni fondamentali espresse dai due decreti più importanti in materia
+        di impianti elettrici D.Lgs 81/08 e D.M. 37/08.
       </div>
       <div className="row-item image-row">
         <img
@@ -260,6 +254,7 @@ export default () => (
         />
       </div>
     </div>
+    <ContactForm />
     <ScrollableAnchor id="googlemaps">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11052.910261856712!2d9.710459248657225!3d46.16612556580803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478473103c6c5d73%3A0xedd4a393d5c39f7a!2sVia%20Serta%2C%20190%2C%2023017%20Morbegno%20SO!5e0!3m2!1sit!2sit!4v1588360807863!5m2!1sit!2sit"

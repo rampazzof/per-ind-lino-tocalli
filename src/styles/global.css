@@ -89,7 +89,7 @@ li {
 .main-presentation {
   display: flex;
   align-items: center;
-  height: calc(100vh - 120px);
+  height: calc(100vh - 60px);
 }
 
 .main-item {
@@ -127,6 +127,7 @@ li {
 }
 
 .button-label {
+  margin-top: 16px;
   font-size: 24px;
   font-weight: 700;
 }
@@ -258,6 +259,10 @@ li {
 }
 
 @media only screen and (max-width: 700px) {
+  .gradient-bar {
+    background: #d6d6d6;
+  }
+
   .row-container {
     width: 100%;
     display: block;

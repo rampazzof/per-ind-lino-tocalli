@@ -33,56 +33,37 @@ export default () => (
         </li>
       </ul>
       <p>
-        Inoltre, le modalità con cui viene elaborato un progetto sono definite
-        dalla Guida CEI “0-2”, denominata “GUIDA DOCUMENTAZIONE PROGETTO
-        IMPIANTI ELETTRICI”, la quale definisce la documentazione di progetto
-        necessaria per gli impianti elettrici ed elettronici di tutte le
-        tipologie di impianti, civili ed industriali, compresi gli impianti di
-        protezione contro i fulmini (in accordo a quanto previsto dalla Legge
-        46/90 e dal suo regolamento di attuazione DPR 447/91; entrambi abrogati
-        dal Decreto Ministeriale 22 gennaio 2008 n. 37).
+        Le modalità con cui viene elaborato un progetto sono definite dalla
+        <b>Guida CEI “0-2”</b>, denominata
+        <b>“GUIDA DOCUMENTAZIONE PROGETTO IMPIANTI ELETTRICI”</b>, la quale
+        definisce la documentazione di progetto necessaria per gli impianti
+        elettrici ed elettronici di tutte le tipologie di impianti, civili ed
+        industriali, compresi gli impianti di protezione contro i fulmini (in
+        accordo a quanto previsto dalla Legge 46/90 e dal suo regolamento di
+        attuazione DPR 447/91; entrambi abrogati dal Decreto Ministeriale 22
+        gennaio 2008 n. 37).
       </p>
+      <br />
       <p>A seguire si riportano alcuni estratti della Guida CEI 0-2:</p>
-      […] Definizioni
+      […] <b>Definizioni</b>
       <p>
-        Il progetto è il momento di ideazione dell’impianto, elemento
-        fondamentale di garanzia per l’utente, quindi deve essere redatto per
-        tutti gli impianti elettrici e ne deve precedere la realizzazione.
+        Il progetto è il momento di <b>ideazione dell’impianto</b>, elemento
+        fondamentale di <b>garanzia</b> per l’utente, quindi deve essere redatto
+        per tutti gli impianti elettrici e ne deve precedere la realizzazione.
       </p>
       <p>
-        Il progetto comprende gli studi che, partendo dalla conoscenza delle
-        prestazioni richieste nelle condizioni ambientali e di funzionamento
-        assegnate, produce le informazioni necessarie e sufficienti per la
-        valutazione, la realizzazione, la verifica, l’esercizio e la
-        manutenzione, dell’impianto in conformità alla regola dell’arte.
+        Il progetto comprende gli <b>studi</b> che, partendo dalla conoscenza
+        delle prestazioni richieste nelle condizioni ambientali e di
+        funzionamento assegnate, produce le informazioni necessarie e
+        sufficienti per la valutazione, la realizzazione, la verifica,
+        l’esercizio e la manutenzione, dell’impianto in conformità alla regola
+        dell'arte.
       </p>
       <p>
-        Il progetto rappresenta il mezzo fondamentale per rispondere alle attese
-        del Committente nel rispetto delle disposizioni di legge e delle norme
-        tecniche, al fine di conseguire la sicurezza e la qualità dell’impianto.
-      </p>
-      […] Progetto dell’impianto
-      <p>
-        Progetto preliminare: definisce le caratteristiche qualitative e
-        funzionali dei lavori, il quadro delle esigenze da soddisfare e delle
-        specifiche prestazioni da fornire. Il progetto preliminare può
-        individuare altresì i profili e le caratteristiche più significative dei
-        successivi livelli di progettazione, in funzione delle dimensioni
-        economiche e della tipologia e categoria dell’intervento.
-      </p>
-      <p>
-        Progetto definitivo: redatto sulla base delle indicazioni del progetto
-        preliminare approvato, contiene tutti gli elementi necessari ai fini del
-        rilascio della concessione edilizia o del permesso per costruire o di
-        altro atto equivalente.
-      </p>
-      <p>
-        Progetto esecutivo: costituisce l’ingegnerizzazione di tutte le
-        lavorazioni e, pertanto, definisce completamente ed in ogni particolare
-        impiantistico l’intervento da realizzare. Il progetto è redatto nel
-        pieno rispetto del progetto definitivo e delle eventuali prescrizioni
-        dettate in sede di rilascio della concessione edilizia o permesso di
-        costruire.
+        Il progetto rappresenta il mezzo fondamentale per
+        <b>rispondere alle attese del Committente</b> nel rispetto delle
+        disposizioni di legge e delle norme tecniche, al fine di conseguire la
+        sicurezza e la qualità dell’impianto.
       </p>
       <div className="button-label">
         Scarica la guida realizzata dal nostro studio:

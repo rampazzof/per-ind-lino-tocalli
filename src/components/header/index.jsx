@@ -12,10 +12,13 @@ export default () => {
 
   return (
     <div className="navbar">
+      <div className="navbar-title-min">
+        <span className="title-min">Studio Tecnico Per. Ind. Lino Tocalli</span>
+      </div>
       <div className="navbar-pointer" style={{ width: itemWidth }} />
       <div className="navbar-container">
         <div className="navbar-title">
-          <span className="title">Studio Tecnico Per. Ind. Lino Tocalli </span>
+          <span className="title">Studio Tecnico Per. Ind. Lino Tocalli</span>
         </div>
         <div className="navbar-item home">
           <a
