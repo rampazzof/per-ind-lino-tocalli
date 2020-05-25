@@ -33,7 +33,7 @@
 .navbar-title {
   display: flex;
   align-items: center;
-  flex-basis: 55%;
+  flex-basis: 50%;
 }
 
 .navbar-item {

@@ -24,6 +24,10 @@ const ContactForm = () => {
         Email:
         <input type="text" name="email" ref={register} />
       </label>
+      <label>
+        Messaggio:
+        <textarea type="text" name="messaggio" ref={register} />
+      </label>
       <input className="submit" type="submit" value="Invia" />
     </form>
   )

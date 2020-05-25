@@ -2,7 +2,7 @@ import React, { useState } from "react"
 
 import { Icon } from "@chakra-ui/core"
 
-import { MdHome, MdPhone, MdPlace } from "react-icons/md"
+import { MdHome, MdPerson, MdPhone, MdPlace } from "react-icons/md"
 import "./style.css"
 
 const defaultWidth = "50%"
@@ -23,17 +23,27 @@ export default () => {
         <div className="navbar-item home">
           <a
             href="/"
-            onMouseEnter={() => setItemWidth("55%")}
+            onMouseEnter={() => setItemWidth("45%")}
             onMouseLeave={() => setItemWidth(defaultWidth)}
           >
             Home
             <Icon as={MdHome} size={10} pb={2} />
           </a>
         </div>
+        <div className="navbar-item presentation">
+          <a
+            href="/presentazione"
+            onMouseEnter={() => setItemWidth("60%")}
+            onMouseLeave={() => setItemWidth(defaultWidth)}
+          >
+            Presentazione
+            <Icon as={MdPerson} size={10} pb={2} />
+          </a>
+        </div>
         <div className="navbar-item map">
           <a
             href="#googlemaps"
-            onMouseEnter={() => setItemWidth("70%")}
+            onMouseEnter={() => setItemWidth("75%")}
             onMouseLeave={() => setItemWidth(defaultWidth)}
           >
             Dove Siamo
@@ -43,7 +53,7 @@ export default () => {
         <div className="navbar-item contacts">
           <a
             href="#contacts"
-            onMouseEnter={() => setItemWidth("85%")}
+            onMouseEnter={() => setItemWidth("90%")}
             onMouseLeave={() => setItemWidth(defaultWidth)}
           >
             Contatti
