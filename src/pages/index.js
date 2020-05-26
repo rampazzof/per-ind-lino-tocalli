@@ -226,6 +226,7 @@ export default () => (
         <div className="row-item-title">
           CENNI NORMATIVI ED OBBLIGHI DI LEGGE
         </div>
+        <div>Quando il progetto è obbligatorio?</div>
         <div>
           La progettazione di impianti in accordo alle prescrizioni riportate
           nel D.Lgs 81/08 e s.m.i. e D.M. 37/08.

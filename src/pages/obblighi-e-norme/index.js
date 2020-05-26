@@ -8,6 +8,10 @@ export default () => (
   <div>
     <div className="page-content">
       <div className="page-title">CENNI NORMATIVI ED OBBLIGHI DI LEGGE</div>
+      <div className="button-label">
+        Scarica la guida realizzata dal nostro studio:
+      </div>
+      <br />
       <p>
         La progettazione di impianti elettrici avviene nel rispetto di quanto
         riportato all’interno dei decreti:
@@ -34,7 +38,7 @@ export default () => (
       </ul>
       <p>
         Le modalità con cui viene elaborato un progetto sono definite dalla
-        <b>Guida CEI “0-2”</b>, denominata
+        <b> Guida CEI “0-2”</b>, denominata
         <b>“GUIDA DOCUMENTAZIONE PROGETTO IMPIANTI ELETTRICI”</b>, la quale
         definisce la documentazione di progetto necessaria per gli impianti
         elettrici ed elettronici di tutte le tipologie di impianti, civili ed
@@ -45,7 +49,10 @@ export default () => (
       </p>
       <br />
       <p>A seguire si riportano alcuni estratti della Guida CEI 0-2:</p>
+      <br />
       […] <b>Definizioni</b>
+      <br />
+      <br />
       <p>
         Il progetto è il momento di <b>ideazione dell’impianto</b>, elemento
         fondamentale di <b>garanzia</b> per l’utente, quindi deve essere redatto
@@ -65,9 +72,7 @@ export default () => (
         disposizioni di legge e delle norme tecniche, al fine di conseguire la
         sicurezza e la qualità dell’impianto.
       </p>
-      <div className="button-label">
-        Scarica la guida realizzata dal nostro studio:
-      </div>
+      <br />
       <a className="download-button" href={downloadFile} download>
         Download <MdFileDownload className="inline-item" />
       </a>

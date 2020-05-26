@@ -52,7 +52,7 @@ export default () => {
         </div>
         <div className="navbar-item contacts">
           <a
-            href="#contacts"
+            href="/#contacts"
             onMouseEnter={() => setItemWidth("90%")}
             onMouseLeave={() => setItemWidth(defaultWidth)}
           >

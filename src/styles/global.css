@@ -45,6 +45,10 @@ a:hover {
   align-items: center;
 }
 
+.contact-container {
+  height: 52vh;
+}
+
 .row-item {
   width: 33%;
   padding-left: 32px;
@@ -183,6 +187,10 @@ li {
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 700px) {
+  .contact-container {
+    height: 100vh;
+  }
+
   .row-container {
     width: 100%;
     display: block;
@@ -262,6 +270,10 @@ li {
 }
 
 @media only screen and (max-width: 700px) {
+  .contact-container {
+    height: 100vh;
+  }
+
   .gradient-bar {
     background: #d6d6d6;
   }
