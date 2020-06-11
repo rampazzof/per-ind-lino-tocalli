@@ -2,7 +2,7 @@
   "name": "gatsby-starter-hello-world",
   "private": true,
   "description": "Per. Ind. Lino Tocalli",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
