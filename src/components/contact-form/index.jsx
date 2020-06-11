@@ -20,7 +20,7 @@ const ContactForm = () => {
         <form
           className="contactForm"
           method="post"
-          action={process.env.ENDPOINT_FORMSPREE}
+          action="https://formspree.io/mlepbpdk"
         >
           <label>
             Nome:
