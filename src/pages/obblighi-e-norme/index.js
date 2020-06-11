@@ -12,6 +12,10 @@ export default () => (
         Scarica la guida realizzata dal nostro studio:
       </div>
       <br />
+      <a className="download-button" href={downloadFile} download>
+        Download <MdFileDownload className="inline-item" />
+      </a>
+      <br />
       <p>
         La progettazione di impianti elettrici avviene nel rispetto di quanto
         riportato all’interno dei decreti:
@@ -39,7 +43,7 @@ export default () => (
       <p>
         Le modalità con cui viene elaborato un progetto sono definite dalla
         <b> Guida CEI “0-2”</b>, denominata
-        <b>“GUIDA DOCUMENTAZIONE PROGETTO IMPIANTI ELETTRICI”</b>, la quale
+        <b> “GUIDA DOCUMENTAZIONE PROGETTO IMPIANTI ELETTRICI”</b>, la quale
         definisce la documentazione di progetto necessaria per gli impianti
         elettrici ed elettronici di tutte le tipologie di impianti, civili ed
         industriali, compresi gli impianti di protezione contro i fulmini (in
@@ -68,14 +72,10 @@ export default () => (
       </p>
       <p>
         Il progetto rappresenta il mezzo fondamentale per
-        <b>rispondere alle attese del Committente</b> nel rispetto delle
+        <b> rispondere alle attese del Committente</b> nel rispetto delle
         disposizioni di legge e delle norme tecniche, al fine di conseguire la
         sicurezza e la qualità dell’impianto.
       </p>
-      <br />
-      <a className="download-button" href={downloadFile} download>
-        Download <MdFileDownload className="inline-item" />
-      </a>
     </div>
   </div>
 )

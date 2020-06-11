@@ -226,7 +226,9 @@ export default () => (
         <div className="row-item-title">
           CENNI NORMATIVI ED OBBLIGHI DI LEGGE
         </div>
-        <div>Quando il progetto è obbligatorio?</div>
+        <div style={{ fontWeight: 700, color: "black" }}>
+          Quando il progetto è obbligatorio?
+        </div>
         <div>
           La progettazione di impianti in accordo alle prescrizioni riportate
           nel D.Lgs 81/08 e s.m.i. e D.M. 37/08.
@@ -255,7 +257,6 @@ export default () => (
         />
       </div>
     </div>
-    <ContactForm />
     <ScrollableAnchor id="googlemaps">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11052.910261856712!2d9.710459248657225!3d46.16612556580803!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478473103c6c5d73%3A0xedd4a393d5c39f7a!2sVia%20Serta%2C%20190%2C%2023017%20Morbegno%20SO!5e0!3m2!1sit!2sit!4v1588360807863!5m2!1sit!2sit"
@@ -265,5 +266,6 @@ export default () => (
         aria-hidden="false"
       />
     </ScrollableAnchor>
+    <ContactForm />
   </div>
 )

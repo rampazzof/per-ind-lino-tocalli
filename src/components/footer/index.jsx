@@ -11,7 +11,7 @@ const Footer = () => (
       <div className="margin-top-separator">
         Via Serta, 190 - 23017 Morbegno (SO)
       </div>
-      <div className="margin-top-separator">Tel.: +39.349.28.10.172</div>
+      <div className="margin-top-separator">Tel.: 0342 030796</div>
       <div>mail: lino.tocalli@live.com</div>
       <div>Pec: lino.tocalli@pec.eppi.it</div>
       <div className="margin-top-separator">P. Iva 00948340146</div>

@@ -6,11 +6,7 @@ import ScrollableAnchor from "react-scrollable-anchor"
 import "./style.css"
 
 const ContactForm = () => {
-  const { register, handleSubmit } = useForm()
-
-  const onSubmit = data => {
-    console.log(data)
-  }
+  const { register } = useForm()
 
   return (
     <ScrollableAnchor id="contacts">
@@ -21,7 +17,11 @@ const ContactForm = () => {
         >
           Contattaci
         </div>
-        <form className="contactForm" onSubmit={handleSubmit(onSubmit)}>
+        <form
+          className="contactForm"
+          method="post"
+          action={process.env.ENDPOINT_FORMSPREE}
+        >
           <label>
             Nome:
             <input type="text" name="nome" ref={register} />
@@ -32,7 +32,7 @@ const ContactForm = () => {
           </label>
           <label>
             Email:
-            <input type="text" name="email" ref={register} />
+            <input type="email" name="cliente" ref={register} />
           </label>
           <label>
             Messaggio:
